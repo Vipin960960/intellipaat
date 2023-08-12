@@ -1,0 +1,20 @@
+npm init
+
+npm init -y 
+1.0.1
+major release.minor release.bug fix
+//----------------------------------
+npm login
+npm adduser
+npm whoami
+npm logout
+----------
+npm publish 
+npm unpublish module-name@version --force
+-----------------------------------------
+
+npm install fetch
+npm i fetch
+-----------------------------------------
+npm install -g nodemon
+npm i -g nodemon

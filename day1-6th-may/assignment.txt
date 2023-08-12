@@ -1,0 +1,3 @@
+Purpose 
+To generate random html file name from a list of 
+profiles and files to be displayed in the console.

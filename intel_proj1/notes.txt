@@ -1,0 +1,23 @@
+template code
+http://p.ip.fi/FirC
+
+
+after bootstrap
+http://p.ip.fi/BwZt
+
+
+all templates
+http://p.ip.fi/B8Ve
+
+basic app
+http://p.ip.fi/E701
+
+app with routes
+http://p.ip.fi/d5RS
+
+
+step2.js
+http://p.ip.fi/bWKZ
+
+step3.js
+http://p.ip.fi/Tsnq

@@ -1,0 +1,19 @@
+extends template 
+
+block vars 
+    - var title = "Login Page"
+
+block body 
+    h2 Please login with your registered credentials here
+    if error 
+        p ERROR : #{error} 
+    form(method="post")
+        div(class="mb-3")
+            label(for="email", class="form-label")  eMail
+            input(id="email", name="email" type="email" class="form-control") 
+        div(class="mb-3")
+            label(for="pass", class="form-label") Password
+            input(id="pass", name="password" type="password" class="form-control") 
+        div(class="mb-3")
+            button(type="submit" class="btn btn-primary mb-3") Login 
+        a(href="/register", style="text-decoration: none;") New Users Register Here 

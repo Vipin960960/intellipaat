@@ -1,0 +1,24 @@
+extends template 
+
+block vars 
+    - var title = "New User Registeration Page"
+
+block body 
+    h2 New Users Register Here
+    if error 
+        p ERROR : #{error} 
+    form(method="post")
+        div(class="mb-3")
+            label(for="firstname", class="form-label") Your First Name
+            input(id="firstname", name="firstname" type="text" class="form-control") 
+        div(class="mb-3")
+            label(for="lastname", class="form-label") Your Last Name
+            input(id="lastname", name="lastname" type="text" class="form-control") 
+        div(class="mb-3")
+            label(for="email", class="form-label") Your eMail id
+            input(id="email", name="email" type="email" class="form-control") 
+        div(class="mb-3")
+            label(for="pass", class="form-label") Password
+            input(id="pass", name="password" type="password" class="form-control") 
+        div(class="mb-3")
+            button(type="submit" class="btn btn-primary mb-3") Register 
